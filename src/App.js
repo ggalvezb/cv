@@ -12,8 +12,8 @@ function App() {
             <Navigation>
                 <Link to="/landingpage">Inicio</Link>
                 <Link to="/resume">Resumen</Link>
-                <Link to="/aboutme">Sobre mi</Link>
-                <Link to="/projects">Projectos</Link>
+                <Link to="/aboutme">Sobre Mi</Link>
+                <Link to="/projects">Proyectos</Link>
                 <Link to="/contact">Contacto</Link>
             </Navigation>
         </Header>
@@ -21,9 +21,9 @@ function App() {
             <Navigation>
                 <Link to="/landingpage">Inicio</Link>
                 <Link to="/resume">Resumen</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/aboutme">Sobre Mi</Link>
+                <Link to="/projects">Proyectos</Link>
+                <Link to="/contact">Contacto</Link>
             </Navigation>
         </Drawer>
         <Content>
