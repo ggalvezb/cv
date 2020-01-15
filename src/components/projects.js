@@ -13,7 +13,7 @@ class Projects extends Component{
             return(
                 <div className="projects-grid">
                     {/* proyecto 1 */}
-                    <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.redeszone.net/app/uploads/2018/07/C%C3%B3digo-Python.jpg) center / cover'}}>
                         Algun proyecto de python
                         </CardTitle>
@@ -29,7 +29,7 @@ class Projects extends Component{
                     </Card>
 
                     {/* proyecto 2 */}
-                    <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.redeszone.net/app/uploads/2018/07/C%C3%B3digo-Python.jpg) center / cover'}}>
                         Algun otro proyecto de python
                         </CardTitle>
@@ -43,6 +43,7 @@ class Projects extends Component{
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
+                    
 
                     </div>
             )
@@ -51,7 +52,7 @@ class Projects extends Component{
             return(
                 <div className="projects-grid">
                     {/* proyecto 1 */}
-                    <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.artelys.com/wp-content/uploads/2018/11/formation4.jpg) center / cover'}}>
                         Algun proyecto de Optimizacion
                         </CardTitle>
