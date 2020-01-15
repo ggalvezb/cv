@@ -11,7 +11,6 @@ function App() {
         <Header className='header-color' title="Gonzalo Gálvez Bobadilla" scroll>
             <Navigation>
                 <Link to="/landingpage">Inicio</Link>
-                <Link to="/resume">Resumen</Link>
                 <Link to="/aboutme">Sobre Mi</Link>
                 <Link to="/projects">Proyectos</Link>
                 <Link to="/contact">Contacto</Link>
@@ -20,7 +19,6 @@ function App() {
         <Drawer title="Menu">
             <Navigation>
                 <Link to="/landingpage">Inicio</Link>
-                <Link to="/resume">Resumen</Link>
                 <Link to="/aboutme">Sobre Mi</Link>
                 <Link to="/projects">Proyectos</Link>
                 <Link to="/contact">Contacto</Link>
