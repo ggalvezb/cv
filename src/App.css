@@ -95,7 +95,7 @@
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: auto;
   background: white;
   color: black;
   border: 2px solid red;
@@ -121,4 +121,11 @@
   font-size: 66px;
   padding-right: 5rem;
 }
+
+/*---------------------About Me page-----------------------*/
+.aboutme-right-col{
+  background: #27221F;
+  color: white;
+}
+
 
