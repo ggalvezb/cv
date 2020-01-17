@@ -30,7 +30,7 @@ class Aboutme extends Component{
                         <p>(56)9 5798 7697</p>
                         <h5>Email</h5>
                         <p>gonzalo@informaciontransparente.com</p>
-                        <p>gonzalo@udec.cl</p>
+                        <p>ggalvez.bobadilla@gmail.com</p>
                         <h5>Web</h5>
                         <p>ggalvezb.github.io/my-app</p>
                     </Cell>

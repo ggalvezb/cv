@@ -7,7 +7,7 @@ class Contact extends Component{
             <div className='conctac-body'>
                 <Grid className='contact-grid'>
                     {/* Lado izquierdo */}
-                    <Cell col={6}>
+                    <Cell col={5}>
                         <h2>Gonzalo Gálvez Bobadilla</h2>
                         <img src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png'
                         style={{height: '250px'}}
@@ -17,7 +17,7 @@ class Contact extends Component{
                         </p>
                     </Cell>
                     {/* Lado derecho*/}
-                    <Cell col={6}>
+                    <Cell col={7}>
                         <h2>Contáctame</h2>
                         <hr/>
                         <div className='contact-list'>
@@ -30,17 +30,17 @@ class Contact extends Component{
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px',fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize:'20px',fontFamily: 'Anton'}}>
                                         <i className='fa fa-envelope' aria-hidden='true'/>
-                                        ggalvez@udec.cl
+                                        gonzalo@informaciontransparente.com
                                     </ListItemContent>
                                 </ListItem>
 
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px',fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize:'20px',fontFamily: 'Anton'}}>
                                         <i className='fa fa-envelope' aria-hidden='true'/>
-                                        gonzalo@informaciontransparente.com
+                                        ggalvez.bobadilla@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                             </List>

@@ -8,9 +8,8 @@
 
 /*---------------------Landing page-----------------------*/
 .landing-grid{
-  background-image: url(C:\Users\ggalv\Desktop\my-app\src\components\writing-1149962.png);
+  background-image: url(C:\Users\ggalv\Desktop\my-app\src\components\landing_fondo_grande.png);
   background-size: 1200px 800px;
-
   text-align: center;
   position: fixed;
   top: 0;
@@ -19,6 +18,21 @@
   height: 100%;
   overflow-y:scroll
 }
+
+@media (max-width: 1000px){
+  .landing-grid{
+    background-image: url(C:\Users\ggalv\Desktop\my-app\src\components\landing_fondo_chica.jpg);
+    background-size: 800px auto;
+    background-position: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y:scroll
+  }
+  }
 
 .avatar-img{
   height: 300px;
@@ -121,7 +135,7 @@
 
 .contact-list i{
   font-size: 50px;
-  padding-right: 5rem;
+  padding-right: 2rem;
 }
 
 /*---------------------About Me page-----------------------*/
