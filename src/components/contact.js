@@ -12,7 +12,9 @@ class Contact extends Component{
                         <img src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png'
                         style={{height: '250px'}}
                         />
-                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Acá debo escribir algo que motive a contactar</p>
+                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>
+                            Acá debo escribir algo que motive a contactar      
+                        </p>
                     </Cell>
                     {/* Lado derecho*/}
                     <Cell col={6}>
