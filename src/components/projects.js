@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import {Tabs,Tab, Grid,Cell,Card,CardText,CardTitle,CardActions,Button,CardMenu,IconButton} from 'react-mdl';
+import { Link } from 'react-router-dom';
 
 
 class Projects extends Component{
@@ -15,13 +16,18 @@ class Projects extends Component{
                     {/* proyecto 1 */}
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.redeszone.net/app/uploads/2018/07/C%C3%B3digo-Python.jpg) center / cover'}}>
-                        Algun proyecto de python
+                        Simulación Evacuación Antofagasta
                         </CardTitle>
                         <CardText>
-                            Aquí va una descripcion del proyecto y si lo pinchas te deberia llevar a github
+                            El simulador se encarga de generar 3 escenarios de escape para la ciudad
+                            de Antofagasta y recopilar sus estadisticas. 
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
+                        <Link to='https://github.com/ggalvezb/Simulacion-evacuacion-antofagasta'>
+                            <Button>
+                                My button linked to react-router-dom
+                            </Button>
+                        </Link>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
@@ -82,7 +88,7 @@ class Projects extends Component{
         return(
             <div>
                 <Tabs activateTab={this.state.activateTab} onChange={(tabId)=>this.setState({activateTab: tabId })}ripple>
-                    <Tab>Python</Tab>
+                    <Tab>Simulación</Tab>
                     <Tab>Optimizacion</Tab>
                     <Tab>Machine Learning</Tab>
                 </Tabs>

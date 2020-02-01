@@ -22,7 +22,9 @@ class Aboutme extends Component{
                         <h2 style={{paddingTop:'2em'}}>Gonzalo Gálvez Bobadilla</h2>
                         <h4 style={{color:'grey'}}>Ingeniero Civil Industrial</h4>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
-                        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                        <p align="center">Ingeniero civil industrial UdeC con más de 6 años de experiencia laboral en el manejo de equipos de trabajo enfocado en la intervención social y
+                            comunitaria. Actualmente realizando tesis de
+                            magister con temáticas de simulación, logística, programación y emergencias naturales.</p>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
                         <h5>Dirección</h5>
                         <p>Las violestas 3238, Concepción</p>
@@ -55,12 +57,79 @@ class Aboutme extends Component{
 
                         <h2>Experiencia Laboral</h2>
                         <Experience
+                            Years="Noviembre 2019 - Actualmente"
+                            jobName="Información Transparente"
+                            jobTitle="Co-fundador"
+                            jobDescription1="- Emprendimiento basado en reportabilidad de datos financieros estatales a través de una pagina web con herramientas de Power BI."
+                            jobDescription2="- Reuniones con el Consejo de la Tranparencia para formar una linea de trabajo colaborativo."
+
+                        />
+                        <Experience
                             Years="Octubre 2019 - Diciembre 2019"
                             jobName="Unidad de data science UdeC"
                             jobTitle="Ingeniero de Proyecto"
-                            jobDescription="bla bla bla bla bla bla "
+                            jobDescription1="- Creación de modelo matemático óptimo, software de uso y visualización en Power BI para área de abastecimiento en Celulosa Arauco S.A - Complejo Nueva Aldea"
+                            jobDescription2="- Ahorro de un 15% en su cadena de costo incial. "
+
+                        />
+                        <Experience
+                            Years="Enero 2018 - Marzo 2018"
+                            jobName="CELULOSA ARAUCO S.A - COMPLEJO HORCONES"
+                            jobTitle="Practica Profesional"
+                            jobDescription1="- Creación de plan de muestreo área Seco-Cepillado para disminuir rechazo de productos de un 12% a un 5% aproximadamente, aplicando técnicas de control de calidad y macros de Excel"
                         />
 
+                        <Experience
+                            Years="Agosto 2016 - Julio 2018"
+                            jobName="TECHO-CHILE"
+                            jobTitle="Coordinador Zonal de Talcahuano"
+                            jobDescription1="- Inserción y seguimiento de los 18 Coordinadores Generales de Campamento."
+                            jobDescription2="- Diagnóstico territorial de los 9 campamentos en los que se está realizando intervención."
+                            jobDescription3="- Entrevista en medios de prensa."
+                            jobDescription4="- Mesa de trabajo Zonal, junto a representantes del municipio."
+                        />
+
+                        <Experience
+                            Years="Mayo 2015 - Enero 2017"
+                            jobName="TECHO-CHILE"
+                            jobTitle="Inserción y Gestión de Voluntarios nuevos, Provincia de Concepción."
+                            jobDescription1="- Protocolo de derivación de voluntarios."
+                            jobDescription2="- Creación de plataforma con registro único de la situación de cada campamento."
+                            jobDescription3="- La aplicación del protocolo ha logrado disminuir el tiempo de inserción en un 75%."
+                        />
+
+                        <Experience
+                            Years="Septiembre 2014 - Agosto 2016"
+                            jobName="TECHO-CHILE"
+                            jobTitle="Coordinador General del Campamento Las Algas, Talcahuano."
+                            jobDescription1="- Liderazgo de equipo formado por 15 voluntarios."
+                            jobDescription2="- Obtención de 47 Subsidios para el comité de vivienda."
+                            jobDescription3="- 3 Proyectos de construcción de infraestructura comunitaria"
+                            jobDescription4="- Ejecución de planes de Educación, Trabajo, Jurídica y Medio Ambiente."
+                        />
+                        <hr style={{borderTop:'3px solid #e22947'}}/>
+
+                        <h2>Experiencia Acedémica</h2>
+                        <Experience
+                            Years="Mayo 2019 - Actualmente"
+                            jobName="Investigación"
+                            jobDescription1="- Trabajando en una publicación junto a profesor de la Universidad de Concepción, enfocada en el área de simulación y asignación óptima de una población sintética para la evacuación post tsunami en la ciudad de Antofagasta Chile"
+                        />
+
+                        <Experience
+                            Years="Enero 2019"
+                            jobName="POSTER EN WORKSHOP INTERNACIONAL DE METAHEURÍSTICA HÍBRIDA"
+                            jobDescription1="- Diseño y programación de metahuristica hibrida para el problema del leñador propuesto por Optil.io's"
+                        />
+
+                        
+                        <Experience
+                            Years="Enero 2018 - Diciembre 2018"
+                            jobName="Ayudantias"
+                            jobDescription1="- Ayudante en la asignatura electiva de Ruteo de Vehículos para alumnos de 5to año de Ingeniería Civil Industrial Udec"
+                            jobDescription2="- Ayudante en la asignatura obligatoria de Logística para alumnos de 5to año de Ingeniería Civil Industrial Udec"
+                        />
+                        
                         <hr style={{borderTop:'3px solid #e22947'}}/>
 
                         <h2>Habilidades</h2>
@@ -83,6 +152,10 @@ class Aboutme extends Component{
                         <Skills
                             skill="React"
                             progress={50}
+                        />
+                            <Skills
+                            skill="GIS"
+                            progress={80}
                         />
 
 

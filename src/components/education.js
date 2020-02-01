@@ -13,7 +13,7 @@ class Education extends Component{
                     <h4 style={{marginTop:'0px'}}>{this.props.schoolName}</h4>
                     <p>{this.props.schoolDescription}</p>
                 </Cell>
-            </Grid>
+            </Grid> 
         )
     }
 }
