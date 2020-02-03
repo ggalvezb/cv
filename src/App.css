@@ -81,9 +81,8 @@
 
 .projects-grid{
   display: flex;
-  overflow-y:scroll
+  overflow-y:scroll;
 }
-
 
 @media (max-width: 1000px){
   .projects-grid{
@@ -91,6 +90,10 @@
     width: 100%;
   }
 
+}
+
+.content{
+  display: auto;
 }
 
 
