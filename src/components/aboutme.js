@@ -11,13 +11,13 @@ class Aboutme extends Component{
                 <Grid>
                     {/* Left Side*/}
                     <Cell col={4}>
-                        <div style={{textAlign:'center'}}>
+                        {/* <div style={{textAlign:'center'}}>
                             <img
                                 src="https://image.freepik.com/free-vector/man-avatar-profile-round-icon_24640-14046.jpg"
                                 alt="avatar"
                                 style={{height:"200px"}}
                             />
-                        </div>
+                        </div> */}
 
                         <h2 style={{paddingTop:'2em'}}>Gonzalo Gálvez Bobadilla</h2>
                         <h4 style={{color:'grey'}}>Ingeniero Civil Industrial</h4>
