@@ -16,20 +16,21 @@ class Landingpage extends Component{
 
                         <div className="banner-text">
                             <h1>Ingeniero Civil Industrial</h1>
-                        
-                        <p>SITIO EN CONSTRUCCION</p>
+            
                         <hr/>
 
-                        <p>Poner descripcion y herramientas</p>
+                        <p>Hice este sitio cómo forma de CV un póco más cercano, donde puedan ver mis proyectos
+                            favoritos y puedan conocer más sobre las áreas en las que me desarrollo.
+                        </p>
 
                         <div className="social-links">
 
                             {/* Linkedin*/}
-                            <a href="http://google.com"rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/gonzalo-galvez-411975115/"rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square"  aria-hidden="true"/>
                             </a>
                             {/* Github*/}
-                            <a href="http://google.com"rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/ggalvezb"rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square"  aria-hidden="true"/>
                             </a>
 

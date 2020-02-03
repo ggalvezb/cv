@@ -416,6 +416,72 @@ class Projects extends Component{
                 </div>
             )
         }
+
+        /* PAGINAS WEB*/
+        else if(this.state.activateTab===4){
+            return(
+                <div className="projects-grid">
+                    {/* Grid izquierdo */}
+                    <Grid>
+                        <Cell col={5}>
+                        {/* proyecto Esta WEB */}
+                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <CardTitle style={{color: 'black', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2016/01/19/17/53/writing-1149962_1280.jpg) center / cover'}}>
+                            Página CV
+                            </CardTitle>
+                            <CardText>
+                               Esta misma página web fue desarrollada por mi 100% en react.
+                            </CardText>
+                            <CardActions border>
+                                <a href="https://ggalvezb.github.io/cv"rel="noopener noreferrer" target="_blank">
+                                <Button colored>Web</Button>
+                                </a>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+                        </Cell>
+                    </Grid>
+
+                    {/* Grid centro */}
+                    <Grid>
+                        <Cell col={5}>
+                            
+                    {/* proyecto Informacion Transparente */}
+                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <CardTitle style={{color: 'white', height: '176px',background: 'url(https://es.justexw.com/wp-content/uploads/sites/2/funciones-de-excel-para-contabilidad.jpg) center / cover'}}>
+                            Información Transparente
+                            </CardTitle>
+                            <CardText>
+                                Dashboard realizado en Power BI el cual presenta los principales gastos
+                                municipales en cada comuna de Chile.(En construcción)
+                            </CardText>
+                            <CardActions border>
+                                <a href="https://informaciontransparente.com"rel="noopener noreferrer" target="_blank">
+                                <Button colored>Web</Button>
+                                </a>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+
+
+                        </Cell>
+                    </Grid>
+
+                    {/* Grid derecho */}
+                    <Grid>
+                        <Cell col={5}>
+
+                        </Cell>
+                    </Grid>
+                </div>
+                )
+            }
+    
+        
     }
 
 
@@ -428,6 +494,7 @@ class Projects extends Component{
                     <Tab>Optimización</Tab>
                     <Tab>Machine Learning</Tab>
                     <Tab>Big Data</Tab>
+                    <Tab>Paginas Web</Tab>
                 </Tabs>
 
                 <Grid>
