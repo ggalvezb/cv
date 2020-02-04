@@ -8,7 +8,7 @@
 
 /*---------------------Landing page-----------------------*/
 .landing-grid{
-  background-image: url(C:\Users\ggalv\Desktop\my-app\src\components\landing_fondo_grande.png);
+  background-image: url(C:\Users\ggalv\Desktop\my-app\src\components\landing_fondo_grande.jpg);
   background-size: 1200px 800px;
   text-align: center;
   position: fixed;
@@ -145,6 +145,7 @@
 .aboutme-right-col{
   background: #27221F;
   color: white;
+  padding-left: 10px;
 }
 
 
