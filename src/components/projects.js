@@ -488,8 +488,8 @@ class Projects extends Component{
 
     render(){
         return(
-            <div>
-                <Tabs activateTab={this.state.activateTab} onChange={(tabId)=>this.setState({activateTab: tabId })}ripple>
+            <div className='tabs_projects'>
+                <Tabs  activateTab={this.state.activateTab} onChange={(tabId)=>this.setState({activateTab: tabId })}ripple>
                     <Tab>Simulación</Tab>
                     <Tab>Optimización</Tab>
                     <Tab>Machine Learning</Tab>
