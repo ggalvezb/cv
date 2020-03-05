@@ -13,14 +13,13 @@ class Projects extends Component{
         /* SIMULACION*/
         if(this.state.activateTab===0){
             return(
-                <div className="projects-grid">
-                    {/* Grid izquierda */}
+                <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
-                        <Cell col={5}>
-                            {/* proyecto simulacion antofa */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                        <Cell col={4}>
+                        {/* proyecto simulacion antofa */}
+                        <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'white', height: '176px', background:'url(https://www.maritimoportuario.cl/mp/wp-content/uploads/2015/09/tsunami-evacuacion.jpg) center / cover'}}>
-                                Simulación Evacuación Antofagasta
+                                Simulación Evacuación Antofagasta 
                                 </CardTitle>
                                 <CardText>
                                     El simulador se encarga de generar 3 escenarios de escape para la ciudad
@@ -35,33 +34,11 @@ class Projects extends Component{
                                     <IconButton name="share" />
                                 </CardMenu>
                             </Card>
-
-                            {/* proyecto markov */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                                <CardTitle style={{color: 'black', height: '176px', background:'url(https://gregorygundersen.com/image/markov/weather.png) center / cover'}}>
-                                Simulacion de procesos Markov Meco
-                                </CardTitle>
-                                <CardText>
-                                    En este proyecto se simula un proceso de tipo Markov
-                                    que presenta una Mezcla de Erlangs de orden común.
-                                </CardText>
-                                <CardActions border>
-                                    <a href="https://github.com/ggalvezb/Markov_MECO/blob/master/Markov_Meco.ipynb"rel="noopener noreferrer" target="_blank">
-                                    <Button colored>Github</Button>
-                                    </a>
-                                </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
-                                    <IconButton name="share" />
-                                </CardMenu>
-                            </Card>
                         </Cell>
-                    </Grid>
 
-                    {/* Grid centro */}
-                    <Grid>
-                        <Cell col={5}>
+                        <Cell col={4}>
                             {/* proyecto poblacion sintetica */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'black', height: '176px', background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4XqRjTNPHy53OFwQOJzzkxCcmhixjwi8LdTGkW1GWZKWGcw_g) center / cover'}}>
                                 Synthetic Population para la ciudad de Antofagasta
                                 </CardTitle>
@@ -79,13 +56,10 @@ class Projects extends Component{
                                 </CardMenu>
                             </Card>
                         </Cell>
-                    </Grid>
 
-                    {/* Grid derecha */}
-                    <Grid>
-                        <Cell col={5}>
+                        <Cell col={4}>
                             {/* proyecto Decision Markov */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'white', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2017/02/22/17/02/beach-2089936_1280.jpg) center / cover'}}>
                                 Predictor de condiciones de Surf
                                 </CardTitle>
@@ -102,23 +76,44 @@ class Projects extends Component{
                                     <IconButton name="share" />
                                 </CardMenu>
                             </Card>
+                        </Cell>
+                    </Grid>
+                    
+                    <Grid>
+                        <Cell col={4}>
+                            {/* proyecto markov */}
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                                <CardTitle style={{color: 'black', height: '176px', background:'url(https://gregorygundersen.com/image/markov/weather.png) center / cover'}}>
+                                Simulacion de procesos Markov Meco
+                                </CardTitle>
+                                <CardText>
+                                    En este proyecto se simula un proceso de tipo Markov
+                                    que presenta una Mezcla de Erlangs de orden común.
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://github.com/ggalvezb/Markov_MECO/blob/master/Markov_Meco.ipynb"rel="noopener noreferrer" target="_blank">
+                                    <Button colored>Github</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
 
                         </Cell>
                     </Grid>
-
-                    </div>
+                </div>
             )
         }
 
         /* OPTIMIZACION*/
         else if(this.state.activateTab===1){
             return(
-                <div className="projects-grid">
-                    {/* Grid izquierda */}
+                <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
-                        <Cell col={5}>
+                        <Cell col={4}>
                             {/* proyecto drones */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: '#fff', height: '176px',background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRH66ckWFHqK0PH-5rJI1R8wCSm_5sO1V-JpEELncdRR5UaH8zV) center / cover'}}>
                                 Asignacion drones
                                 </CardTitle>
@@ -133,55 +128,12 @@ class Projects extends Component{
                                 <CardMenu style={{color: '#fff'}}>
                                     <IconButton name="share" />
                                 </CardMenu>
-                            </Card>
-                   
-                            {/* proyecto  maquinas paralelas*/}
-                            
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                                <CardTitle style={{color: 'white', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659_1280.jpg) center / cover'}}>
-                                ILSVND para maquinas en paralelo
-                                </CardTitle>
-                                <CardText>
-                                Acá se presenta una metaheuristica de Iterated Local Serach con Variable Neighborhood Descent e 
-                                instancias para su prueba. El codigo fue programado en base al paper Luis Fanjul-Peyro, Rubén Ruiz(2009)
-                                </CardText>
-                                <CardActions border>
-                                    <a href="https://github.com/ggalvezb/Maquinas_Paralelas_ILSconVND"rel="noopener noreferrer" target="_blank">
-                                    <Button colored>Github</Button>
-                                    </a>
-                                </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
-                                    <IconButton name="share" />
-                                </CardMenu>
-                            </Card>
-
-                            {/* proyecto TSP Localsearch */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                                <CardTitle style={{color: 'black', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2014/09/22/01/10/map-455769_1280.jpg) center / cover'}}>
-                                Metaheuristica para TSP
-                                </CardTitle>
-                                <CardText>
-                                Se presentan dos formas de resolver el TSP. Utilizando un algoritmo Greedy y una metaheuristica de Localsearch.
-                                </CardText>
-                                <CardActions border>
-                                    <a href="https://github.com/ggalvezb/TSP_Greedy_y_LocalSearch"rel="noopener noreferrer" target="_blank">
-                                    <Button colored>Github</Button>
-                                    </a>
-                                </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
-                                    <IconButton name="share" />
-                                </CardMenu>
-                            </Card>
-
+                            </Card>                          
                         </Cell>
-                    </Grid>
 
-                    {/* Grid centro */}
-                    <Grid>
-                        <Cell col={5}>
-
+                        <Cell col={4}>
                             {/* proyecto heuristica MPMDSDVRP */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'white', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2014/09/01/14/39/forest-fire-432870_1280.jpg) center / cover'}}>
                                 Heuristica para MPMDSDVRP
                                 </CardTitle>
@@ -198,9 +150,55 @@ class Projects extends Component{
                                     <IconButton name="share" />
                                 </CardMenu>
                             </Card>
+                        </Cell>
+                        <Cell col={4}>
+                            {/* proyecto dijkstra antofa */}                   
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                                <CardTitle style={{color: '#fff', height: '176px',background: 'url(https://www.artelys.com/wp-content/uploads/2018/11/formation4.jpg) center / cover'}}>
+                                Dijkstra para evacuacion Antofagasta
+                                </CardTitle>
+                                <CardText>
+                                    Se utilizó el algoritmo de dijkstra junto a tecnicas de GIS para obtener la mejor ruta
+                                    de evacuación de cada familia en Atofagasta.
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://github.com/ggalvezb/Dijkstra-evacuacion-antofagasta-2"rel="noopener noreferrer" target="_blank">
+                                    <Button colored>Github</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>                           
+                        </Cell>
+                    </Grid>
 
+                    <Grid>
+                        <Cell>
+                             {/* proyecto  maquinas paralelas*/}
+                            
+                             <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                                <CardTitle style={{color: 'white', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659_1280.jpg) center / cover'}}>
+                                ILSVND para maquinas en paralelo
+                                </CardTitle>
+                                <CardText>
+                                Acá se presenta una metaheuristica de Iterated Local Serach con Variable Neighborhood Descent e 
+                                instancias para su prueba. El codigo fue programado en base al paper Luis Fanjul-Peyro, Rubén Ruiz(2009)
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://github.com/ggalvezb/Maquinas_Paralelas_ILSconVND"rel="noopener noreferrer" target="_blank">
+                                    <Button colored>Github</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                           
+                        </Cell>
+                        <Cell col={4}>
                             {/* proyecto OP Greedy */}                   
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'white', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2016/11/18/22/31/architecture-1837176_1280.jpg) center / cover'}}>
                                 Orienteering Problem Greedy
                                 </CardTitle>
@@ -215,10 +213,53 @@ class Projects extends Component{
                                 <CardMenu style={{color: '#fff'}}>
                                     <IconButton name="share" />
                                 </CardMenu>
-                            </Card>
+                            </Card>                           
+                        </Cell>
+                        <Cell col={4}>
+                            {/* proyecto metaheuristica cvrptw */}
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                                <CardTitle style={{color: 'black', height: '176px',background: 'url(https://cfikar.files.wordpress.com/2016/12/figure_vrpsolver.png?w=950) center / cover'}}>
+                                Metaheuristica para un CVRPTW
+                                </CardTitle>
+                                <CardText>
+                                Se presenta un algoritmo de tipo iterativo el cual hace busqueda local sobre vecindarios 
+                                de forma descendiente para el problema del vrp capacitado con ventanas de tiempo.
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://github.com/ggalvezb/Iterated-Variable-Neighborhood-Descent-for-CVRPTW"rel="noopener noreferrer" target="_blank">
+                                    <Button colored>Github</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>                           
+                        </Cell>
+                    </Grid>
 
+                    <Grid>
+                        <Cell col={4}>
+                            {/* proyecto TSP Localsearch */}
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                                <CardTitle style={{color: 'black', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2014/09/22/01/10/map-455769_1280.jpg) center / cover'}}>
+                                Metaheuristica para TSP
+                                </CardTitle>
+                                <CardText>
+                                Se presentan dos formas de resolver el TSP. Utilizando un algoritmo Greedy y una metaheuristica de Localsearch.
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://github.com/ggalvezb/TSP_Greedy_y_LocalSearch"rel="noopener noreferrer" target="_blank">
+                                    <Button colored>Github</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
+                        <Cell col={4}>
                             {/* pryecto subgradiente asignacion */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'white', height: '176px',background: 'url(https://cssintl.com/wp-content/uploads/2017/07/dunnage.jpg) center / cover'}}>
                                 Metodo de subgradiente para asignacion
                                 </CardTitle>
@@ -235,58 +276,8 @@ class Projects extends Component{
                                     <IconButton name="share" />
                                 </CardMenu>
                             </Card>
-
                         </Cell>
                     </Grid>
-
-                    {/* Grid derecho */}
-                    <Grid>
-                        <Cell col={5}>
-
-                            {/* proyecto dijkstra antofa */}                   
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '176px',background: 'url(https://www.artelys.com/wp-content/uploads/2018/11/formation4.jpg) center / cover'}}>
-                                Dijkstra para evacuacion Antofagasta
-                                </CardTitle>
-                                <CardText>
-                                    Se utilizó el algoritmo de dijkstra junto a tecnicas de GIS para obtener la mejor ruta
-                                    de evacuación de cada familia en Atofagasta.
-                                </CardText>
-                                <CardActions border>
-                                    <a href="https://github.com/ggalvezb/Dijkstra-evacuacion-antofagasta-2"rel="noopener noreferrer" target="_blank">
-                                    <Button colored>Github</Button>
-                                    </a>
-                                </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
-                                    <IconButton name="share" />
-                                </CardMenu>
-                            </Card>
-
-                            {/* proyecto metaheuristica cvrptw */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                                <CardTitle style={{color: 'black', height: '176px',background: 'url(https://cfikar.files.wordpress.com/2016/12/figure_vrpsolver.png?w=950) center / cover'}}>
-                                Metaheuristica para un CVRPTW
-                                </CardTitle>
-                                <CardText>
-                                Se presenta un algoritmo de tipo iterativo el cual hace busqueda local sobre vecindarios 
-                                de forma descendiente para el problema del vrp capacitado con ventanas de tiempo.
-                                </CardText>
-                                <CardActions border>
-                                    <a href="https://github.com/ggalvezb/Iterated-Variable-Neighborhood-Descent-for-CVRPTW"rel="noopener noreferrer" target="_blank">
-                                    <Button colored>Github</Button>
-                                    </a>
-                                </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
-                                    <IconButton name="share" />
-                                </CardMenu>
-                            </Card>
-
-
-                            
-
-                        </Cell>
-                    </Grid>
-
                 </div>
             )
         }
@@ -294,12 +285,11 @@ class Projects extends Component{
         /* MACHINE LEARNING*/
         else if(this.state.activateTab===2){
             return(
-                <div className="projects-grid">
-                    {/* Grid izquierdo */}
+                <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
-                        <Cell col={5}>
-                            {/* proyecto SARIMA */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                        <Cell col={4}>
+                             {/* proyecto SARIMA */}
+                             <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'black', height: '176px',background: 'url(https://www.lokad.com/public/Upload//Technology/ProbabilisticForecasting/probabilistic-forecasting-graph.png) center / cover'}}>
                                 Prediccion de demanda
                                 </CardTitle>
@@ -315,16 +305,11 @@ class Projects extends Component{
                                 <CardMenu style={{color: '#fff'}}>
                                     <IconButton name="share" />
                                 </CardMenu>
-                            </Card>
+                            </Card>                           
                         </Cell>
-                    </Grid>
-
-                    {/* Grid centro */}
-                    <Grid>
-                        <Cell col={5}>
-                            
+                        <Cell col={4}>
                     {/* proyecto Factores riesgo */}
-                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                             <CardTitle style={{color: 'white', height: '176px',background: 'url(https://i3.visitchile.com/img/GalleryContent/4296/slider/Concepcion.jpg) center / cover'}}>
                             Factores de riesgo en Región del Bíobio
                             </CardTitle>
@@ -340,16 +325,11 @@ class Projects extends Component{
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
                             </CardMenu>
-                        </Card>
-
+                        </Card>                           
                         </Cell>
-                    </Grid>
-
-                    {/* Grid derecho */}
-                    <Grid>
-                        <Cell col={5}>
+                        <Cell col={4}>
                             {/* proyecto 5 tipos cluster */}
-                            <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'white', height: '176px',background: 'url(https://miro.medium.com/max/1140/1*diHxfl62piQUE_SwBcw8hg.jpeg) center / cover'}}>
                                 Comparacion 5 tipos de clustering
                                 </CardTitle>
@@ -368,25 +348,17 @@ class Projects extends Component{
                             </Card>
                         </Cell>
                     </Grid>
+
                 </div>)}
 
         /* BIG DATA*/
         else if(this.state.activateTab===3){
             return(
-                <div className="projects-grid">
-                    {/* Grid izquierdo */}
+                <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
-                        <Cell col={5}>
-
-                        </Cell>
-                    </Grid>
-
-                    {/* Grid centro */}
-                    <Grid>
-                        <Cell col={5}>
-                            
+                        <Cell col={12}>
                     {/* proyecto Count Streaming */}
-                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                             <CardTitle style={{color: 'white', height: '176px',background: 'url(https://bbvaopen4u.com/sites/default/files/styles/big-image/public/img/new/imagen_1_4.png?itok=-B2bA4vg) center / cover'}}>
                             3 contadores en Streaming
                             </CardTitle>
@@ -406,13 +378,6 @@ class Projects extends Component{
 
                         </Cell>
                     </Grid>
-
-                    {/* Grid derecho */}
-                    <Grid>
-                        <Cell col={5}>
-
-                        </Cell>
-                    </Grid>
                 </div>
             )
         }
@@ -420,12 +385,11 @@ class Projects extends Component{
         /* PAGINAS WEB*/
         else if(this.state.activateTab===4){
             return(
-                <div className="projects-grid">
-                    {/* Grid izquierdo */}
+                <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
-                        <Cell col={5}>
+                        <Cell col={6}>
                         {/* proyecto Esta WEB */}
-                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                        <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                             <CardTitle style={{color: 'black', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2016/01/19/17/53/writing-1149962_1280.jpg) center / cover'}}>
                             Página CV
                             </CardTitle>
@@ -442,14 +406,9 @@ class Projects extends Component{
                             </CardMenu>
                         </Card>
                         </Cell>
-                    </Grid>
-
-                    {/* Grid centro */}
-                    <Grid>
-                        <Cell col={5}>
-                            
+                        <Cell col={6}>
                     {/* proyecto Informacion Transparente */}
-                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                             <CardTitle style={{color: 'white', height: '176px',background: 'url(https://es.justexw.com/wp-content/uploads/sites/2/funciones-de-excel-para-contabilidad.jpg) center / cover'}}>
                             Información Transparente
                             </CardTitle>
@@ -467,14 +426,6 @@ class Projects extends Component{
                             </CardMenu>
                         </Card>
 
-
-                        </Cell>
-                    </Grid>
-
-                    {/* Grid derecho */}
-                    <Grid>
-                        <Cell col={5}>
-
                         </Cell>
                     </Grid>
                 </div>
@@ -489,7 +440,7 @@ class Projects extends Component{
     render(){
         return(
             <div className='tabs_projects'>
-                <Tabs  activateTab={this.state.activateTab} onChange={(tabId)=>this.setState({activateTab: tabId })}ripple>
+                <Tabs  className='tab' activateTab={this.state.activateTab} onChange={(tabId)=>this.setState({activateTab: tabId })}ripple>
                     <Tab>Simulación</Tab>
                     <Tab>Optimización</Tab>
                     <Tab>Machine Learning</Tab>

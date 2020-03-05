@@ -9,7 +9,7 @@
 /*---------------------Landing page-----------------------*/
 .landing-grid{
   background-image: url(C:\Users\ggalv\Desktop\my-app\src\components\landing_fondo_grande.jpg);
-  background-size: 1200px 800px;
+  background-size: 1300px 800px;
   text-align: center;
   position: fixed;
   top: 0;
@@ -22,7 +22,7 @@
 @media (max-width: 1000px){
   .landing-grid{
     background-image: url(C:\Users\ggalv\Desktop\my-app\src\components\landing_fondo_chica.jpg);
-    background-size: 800px auto;
+    background-size: 900px auto;
     background-position: center;
     text-align: center;
     position: fixed;
@@ -79,26 +79,14 @@
 
 /*---------------------Projects page-----------------------*/
 
-.projects-grid{
-  display: flex;
-  overflow-y:scroll;
-}
-
-@media (max-width: 1000px){
-  .projects-grid{
-    height: auto;
-    width: 100%;
-  }
-
-}
 
 .content{
   display: auto;
 }
 
-.tabs_projects{
-  
-}
+
+
+
 
 
 /*---------------------Contact page-----------------------*/

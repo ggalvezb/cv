@@ -13,7 +13,6 @@ class Contact extends Component{
                         style={{height: '250px'}}
                         />
                         <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>
-                            Acá debo escribir algo que motive a contactar      
                         </p>
                     </Cell>
                     {/* Lado derecho*/}
@@ -25,7 +24,7 @@ class Contact extends Component{
                                 <ListItem>
                                     <ListItemContent style={{fontSize:'25px',fontFamily: 'Anton'}}>
                                         <i className='fa fa-phone-square' aria-hidden='true'/>
-                                        (56) 957-987-697
+                                        (+56) 957-987-697
                                     </ListItemContent>
                                 </ListItem>
 
