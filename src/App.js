@@ -3,8 +3,16 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
+import ReactGA from 'react-ga';
+
+function initizeAnalytics(){
+    ReactGA.initialize("UA-159941225-1")
+    ReactGA.pageview('/cv')
+}
+
 
 function App() {
+    initizeAnalytics()
   return (
 <div className="demo-big-content">
     <Layout>
