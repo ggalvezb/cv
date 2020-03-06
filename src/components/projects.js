@@ -289,7 +289,7 @@ class Projects extends Component{
                     <Grid>
                         <Cell col={4}>
                              {/* proyecto SARIMA */}
-                             <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                             <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'black', height: '176px',background: 'url(https://www.lokad.com/public/Upload//Technology/ProbabilisticForecasting/probabilistic-forecasting-graph.png) center / cover'}}>
                                 Prediccion de demanda
                                 </CardTitle>
@@ -309,7 +309,7 @@ class Projects extends Component{
                         </Cell>
                         <Cell col={4}>
                     {/* proyecto Factores riesgo */}
-                    <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
                             <CardTitle style={{color: 'white', height: '176px',background: 'url(https://i3.visitchile.com/img/GalleryContent/4296/slider/Concepcion.jpg) center / cover'}}>
                             Factores de riesgo en Región del Bíobio
                             </CardTitle>
@@ -329,7 +329,7 @@ class Projects extends Component{
                         </Cell>
                         <Cell col={4}>
                             {/* proyecto 5 tipos cluster */}
-                            <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
                                 <CardTitle style={{color: 'white', height: '176px',background: 'url(https://miro.medium.com/max/1140/1*diHxfl62piQUE_SwBcw8hg.jpeg) center / cover'}}>
                                 Comparacion 5 tipos de clustering
                                 </CardTitle>
@@ -339,6 +339,30 @@ class Projects extends Component{
                                 </CardText>
                                 <CardActions border>
                                     <a href="https://github.com/ggalvezb/5_tipos_clusters/blob/master/Tarea_Clusters.ipynb"rel="noopener noreferrer" target="_blank">
+                                    <Button colored>Github</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
+                    </Grid>
+
+                    <Grid>
+                        <Cell col={4}>
+                            {/* proyecto analisis sentimiento twitter */}
+                            <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
+                                <CardTitle style={{color: 'white', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2015/01/02/20/14/smartphone-586944_1280.jpg) center/cover'}}>
+                                Análisis Tiempo Real Twitter
+                                </CardTitle>
+                                <CardText>
+                                Se muestra un análisis de sentimiento que realice en Twitter, donde se puede clasificar en Postivo, Negativo o Neutral
+                                los Tweets de usuarios o inspeccionar en tiempo real todos los tweets realizados con palabras seleccionadas y mostrar las
+                                palabras más usadas.
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://github.com/ggalvezb/Twitter_Sentiment_Analysis"rel="noopener noreferrer" target="_blank">
                                     <Button colored>Github</Button>
                                     </a>
                                 </CardActions>
