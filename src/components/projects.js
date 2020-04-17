@@ -371,7 +371,34 @@ class Projects extends Component{
                                 </CardMenu>
                             </Card>
                         </Cell>
+                        
+                        <Cell col={4}>
+                            {/* Curso ML Udemy */}
+                            <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
+                                <CardTitle style={{color: 'white', height: '176px',background: 'url(https://img-a.udemycdn.com/course/750x422/950390_270f_3.jpg) center/cover'}}>
+                                Curso Machine Learning A-Z Udemy 
+                                </CardTitle>
+                                <CardText>
+                                Se abordaron los topicos de:
+                                Regression,Classification,Clustering, ARL, Reinforcement Learning, Natural Language Processing, Deep Learning,
+                                Dimensionality Reduction, Model Selection and Boosting                            
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://www.udemy.com/course/machinelearning/"rel="noopener noreferrer" target="_blank">
+                                    <Button colored>Web</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
                     </Grid>
+
+                    
+
+                 
+
 
                 </div>)}
 
