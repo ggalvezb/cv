@@ -6,6 +6,8 @@
 }
 
 
+
+
 /*---------------------Landing page-----------------------*/
 .landing-grid{
   background-image: url(C:\Users\ggalv\Desktop\my-app\src\components\landing_fondo_grande.jpg);
@@ -82,6 +84,20 @@
 
 .content{
   display: auto;
+}
+
+.Cards_title_1{
+  font-size: x-large;
+  width: 1000px;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  margin-top: auto;
+}
+
+.Cards_title_2{
+  font-size: x-large;
+  width: 1000px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: auto;
 }
 
 
