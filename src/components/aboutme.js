@@ -65,7 +65,7 @@ class Aboutme extends Component{
 
                         />
                         <Experience
-                            Years="Octubre 2019 - Diciembre 2019"
+                            Years="Octubre 2019 - Noviembre 2019"
                             jobName="Unidad de data science UdeC"
                             jobTitle="Ingeniero de Proyecto"
                             jobDescription1="- Creación de modelo matemático óptimo, software de uso y visualización en Power BI para área de abastecimiento en Celulosa Arauco S.A - Complejo Nueva Aldea."
