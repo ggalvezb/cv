@@ -17,7 +17,9 @@ class Dashboard extends Component{
                             Python, MongoDB y PowerBI.
                             </CardText>
                             <CardActions border>
-                            <Button raised colored href='/reporte_twitter'>VER</Button>
+                            <Button raised colored>
+                                <Link to="/reporte_twitter" style={{color:'white'}}>VER</Link>
+                            </Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                             
