@@ -15,6 +15,9 @@ class Projects extends Component{
             return(
                 <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
+                        <Cell col={12}>
+                            <h2 className='titulos_area_proyectos'>Simulación</h2>
+                        </Cell>
                         <Cell col={4}>
                         {/* proyecto simulacion antofa */}
                         <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
@@ -111,6 +114,9 @@ class Projects extends Component{
             return(
                 <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
+                        <Cell col={12}>
+                            <h2 className='titulos_area_proyectos'>Optimización</h2>
+                        </Cell>
                         <Cell col={4}>
                             {/* proyecto drones */}
                             <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
@@ -288,6 +294,9 @@ class Projects extends Component{
                 <div style={{width: '90%', margin: 'auto'}}>
                     {/* Primera Fila */}
                     <Grid>
+                        <Cell col={12}>
+                            <h2 className='titulos_area_proyectos'>Machine Learning</h2>
+                        </Cell>
                          {/* proyecto SARIMA */}
                         <Cell col={4}>
                              <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
@@ -477,6 +486,9 @@ class Projects extends Component{
                 <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
                         <Cell col={12}>
+                            <h2 className='titulos_area_proyectos'>Big Data</h2>
+                        </Cell>
+                        <Cell col={12}>
                     {/* proyecto Count Streaming */}
                     <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                             <CardTitle style={{color: 'white', height: '176px',background: 'url(https://bbvaopen4u.com/sites/default/files/styles/big-image/public/img/new/imagen_1_4.png?itok=-B2bA4vg) center / cover'}}>
@@ -507,6 +519,9 @@ class Projects extends Component{
             return(
                 <div style={{width: '90%', margin: 'auto'}}>
                     <Grid>
+                        <Cell col={12}>
+                            <h2 className='titulos_area_proyectos'>Paginas Web</h2>
+                        </Cell>
                         <Cell col={6}>
                         {/* proyecto Esta WEB */}
                         <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>

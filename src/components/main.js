@@ -4,6 +4,8 @@ import Landingpage from './landingpage';
 import AboutMe from './aboutme';
 import Contact from './contact';
 import Projects from './projects';
+import Dashboard from './dashboards';
+import Reporte_twitter from './dashboards/reporte_twitter';
 
 
 const Main = () => (
@@ -14,6 +16,8 @@ const Main = () => (
         <Route path="/aboutme" component={AboutMe}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/projects" component={Projects}/>
+        <Route path='/dashboards' component={Dashboard}/>
+        <Route path='/reporte_twitter' component={Reporte_twitter}/>
 
     </Switch>
 )

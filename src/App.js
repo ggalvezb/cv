@@ -5,6 +5,7 @@ import Main from './components/main';
 import {Link} from 'react-router-dom';
 import ReactGA from 'react-ga';
 
+
 function initizeAnalytics(){
     ReactGA.initialize("UA-159941225-1")
     ReactGA.pageview('/cv')
@@ -21,6 +22,7 @@ function App() {
                 <Link to="/landingpage">Inicio</Link>
                 <Link to="/aboutme">Sobre Mi</Link>
                 <Link to="/projects">Proyectos</Link>
+                <Link to="/dashboards">Dashboards</Link>
                 <Link to="/contact">Contacto</Link>
             </Navigation>
         </Header>
@@ -29,6 +31,7 @@ function App() {
                 <Link to="/landingpage">Inicio</Link>
                 <Link to="/aboutme">Sobre Mi</Link>
                 <Link to="/projects">Proyectos</Link>
+                <Link to="/dashboards">Dashboards</Link>
                 <Link to="/contact">Contacto</Link>
             </Navigation>
         </Drawer>
