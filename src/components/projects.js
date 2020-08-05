@@ -522,7 +522,7 @@ class Projects extends Component{
                         <Cell col={12}>
                             <h2 className='titulos_area_proyectos'>Paginas Web</h2>
                         </Cell>
-                        <Cell col={6}>
+                        <Cell col={4}>
                         {/* proyecto Esta WEB */}
                         <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                             <CardTitle style={{color: 'white', height: '176px',background: 'url(https://cdn.pixabay.com/photo/2016/01/19/17/53/writing-1149962_1280.jpg) center / cover'}}>
@@ -541,7 +541,7 @@ class Projects extends Component{
                             </CardMenu>
                         </Card>
                         </Cell>
-                        <Cell col={6}>
+                    <Cell col={4}>
                     {/* proyecto Informacion Transparente */}
                     <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
                             <CardTitle style={{color: 'white', height: '176px',background: 'url(https://es.justexw.com/wp-content/uploads/sites/2/funciones-de-excel-para-contabilidad.jpg) center / cover'}}>
@@ -554,6 +554,26 @@ class Projects extends Component{
                             <CardActions border>
                                 <a href="https://informaciontransparente.com"rel="noopener noreferrer" target="_blank">
                                 <Button colored>Web</Button>
+                                </a>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+                    </Cell>
+                    <Cell col={4}>
+                    {/* proyecto web ap notas */}
+                    <Card shadow={0} style={{width: '290px', height: '320px', margin: 'auto'}}>
+                            <CardTitle style={{color: 'white', height: '176px',background: 'url(https://img-a.udemycdn.com/course/240x135/3236063_9fd3.jpg) center / cover'}}>
+                            <p className='Cards_title_1'>Web App MERN Notas</p>
+                            </CardTitle>
+                            <CardText>
+                                Aplicació web desarrollada con MERN (MongoDB,Express,React,Nodejs). Esta es una aplicacion
+                                de notas web, que tiene usuarios y notas que se almacenan en una base de datos.
+                            </CardText>
+                            <CardActions border>
+                                <a href="https://github.com/ggalvezb/MERN-project-notes-services"rel="noopener noreferrer" target="_blank">
+                                <Button colored>Github</Button>
                                 </a>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
