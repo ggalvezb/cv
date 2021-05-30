@@ -22,16 +22,14 @@ class Aboutme extends Component{
                         <h2 style={{paddingTop:'2em'}}>Gonzalo Gálvez Bobadilla</h2>
                         <h4 style={{color:'grey'}}>Ingeniero Civil Industrial</h4>
                         <hr style={{borderTop:'3px solid #11357A',width:'50%'}}/>
-                        <p align="center">Ingeniero civil industrial UdeC con más de 6 años de experiencia laboral en el manejo de equipos de trabajo enfocado en la intervención social y
-                            comunitaria. Actualmente realizando tesis de
-                            magister con temáticas de simulación, logística, programación y emergencias naturales.</p>
+                        <p align="center">Ingeniero civil industrial UdeC con experiencia laboral en temáticas de Optimización, Machine Learning y Bussines Inteligence. Actualmente trabajando en Serviu Santiago, encargado de un equipo de desarrollo y análisis de datos.</p>
                         <hr style={{borderTop:'3px solid #11357A',width:'50%'}}/>
                         <h5>Dirección</h5>
-                        <p>Las violestas 3238, Concepción</p>
+                        <p>Curicó 372, Santiago</p>
                         <h5>Teléfono</h5>
                         <p>(56)9 5798 7697</p>
                         <h5>Email</h5>
-                        <p>gonzalo@informaciontransparente.com</p>
+                        <p>ggalveb@live.com</p>
                         <p>ggalvez.bobadilla@gmail.com</p>
                         <h5>Web</h5>
                         <p>ggalvezb.github.io/my-app</p>
@@ -56,6 +54,17 @@ class Aboutme extends Component{
                         <hr style={{borderTop:'3px solid #11357A'}}/>
 
                         <h2>Experiencia Laboral</h2>
+
+                        <Experience
+                            Years="Octubre 2021 - Actualmente"
+                            jobName="SERVIU Región Metropolitana"
+                            jobTitle="Analista de Datos Control de Gestión Subdirección de Vivienda"
+                            jobDescription1="- Control y Gestión de 21.000 subsidios anuales con un presupuesto de $2.1 Millones de UF."
+                            jobDescription2="- Creación de Multiples Dashboards de Control desarrollados en PowerBI."
+                            jobDescription3="- Desarrollo de algoritmos de Machine Learning para mejorar los procesos internos."
+                            jobDescription4="- Automatización de multiples procesos de gestión y disminución en un 50% de los tiempos de pago."
+
+                        />
                         <Experience
                             Years="Noviembre 2019 - Actualmente"
                             jobName="Información Transparente"
@@ -146,7 +155,7 @@ class Aboutme extends Component{
                         />
                         <Skills
                             skill="Power Bi"
-                            progress={70}
+                            progress={90}
                         />
                         <Skills
                             skill="Excel"
