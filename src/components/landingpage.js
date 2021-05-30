@@ -25,7 +25,7 @@ class Landingpage extends Component{
                             <h1>Ingeniero Civil Industrial</h1>
                         <hr/>
                         <p>Hice este sitio cómo forma de CV un póco más cercano, donde puedan ver mis proyectos
-                            favoritos y puedan conocer más sobre las áreas en las que me desarrollo.
+                            favoritos y puedan conocer más sobre las áreas en las que me desarrollo
                         </p>
                         <div className="social-links">
                             {/* Linkedin*/}
