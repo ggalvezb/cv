@@ -325,12 +325,12 @@ class Projects extends Component{
                             nombre_boton='Google Colab'
                         />     
                         <Project
-                            titulo='Prediccion de permanencia clientes bancarios'
-                            image_card='https://vignette.wikia.nocookie.net/himym/images/f/fe/Gnb_establishing.png/revision/latest?cb=20110105223112'
-                            descripcion='Creación de una Red Neuronal con el Metodo de Gradiente para determinar si un cliente permanecerá en el banco o no.'
-                            link='https://github.com/ggalvezb/Predictor_clientes_banco/blob/master/predictor_clientes_banco.ipynb'
-                            nombre_boton='Github'
-                        />    
+                            titulo='Prediccion de Sobrevivencia en el Titanic'
+                            image_card='https://i0.wp.com/hipertextual.com/wp-content/uploads/2019/03/hipertextual-primera-pelicula-sobre-titanic-protagonizo-actriz-superviviente-catastrofe-2019738535.jpg?fit=1200%2C800&ssl=1'
+                            descripcion='Regresión Logistica enfocada en la predicción de supervivencia según atributos de los pasajeros.'
+                            link='https://colab.research.google.com/drive/1b-BWeQc1Rm1WpGrNuqTaqTQCIq4-m5Bt?usp=sharing'
+                            nombre_boton='Google Colab'
+                        />     
 
 
                     </Grid>
@@ -354,26 +354,13 @@ class Projects extends Component{
                             nombre_boton='Github'
                         />
 
-                        {/* proyecto 5 tipos cluster */}
-                        <Cell col={4}>
-                            <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
-                                <CardTitle style={{color: 'white', height: '176px',background: 'url(https://miro.medium.com/max/1140/1*diHxfl62piQUE_SwBcw8hg.jpeg) center / cover'}}>
-                                <p className='Cards_title_1'>Comparacion 5 tipos de clustering </p>
-                                </CardTitle>
-                                <CardText>
-                                Se presentan 5 metodos de clusterizacion: -kmeans -minibatchkmeans -aglomerativo -dbscan -meanshift
-                                Todos unificados en con una sola función para ser importada en otros codigos y probados con datos de posiciones neuronales.
-                                </CardText>
-                                <CardActions border>
-                                    <a href="https://github.com/ggalvezb/5_tipos_clusters/blob/master/Tarea_Clusters.ipynb"rel="noopener noreferrer" target="_blank">
-                                    <Button colored>Github</Button>
-                                    </a>
-                                </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
-                                    <IconButton name="share" />
-                                </CardMenu>
-                            </Card>
-                        </Cell>                 
+                        <Project
+                            titulo='Prediccion de permanencia clientes bancarios'
+                            image_card='https://vignette.wikia.nocookie.net/himym/images/f/fe/Gnb_establishing.png/revision/latest?cb=20110105223112'
+                            descripcion='Creación de una Red Neuronal con el Metodo de Gradiente para determinar si un cliente permanecerá en el banco o no.'
+                            link='https://github.com/ggalvezb/Predictor_clientes_banco/blob/master/predictor_clientes_banco.ipynb'
+                            nombre_boton='Github'
+                        />              
 
                     </Grid>
                     
@@ -422,17 +409,19 @@ class Projects extends Component{
                                 </CardMenu>
                             </Card>
                         </Cell>
-                        {/* Canasta de compras */}
-                        <Cell col={4}>                          
+
+                        {/* proyecto 5 tipos cluster */}
+                        <Cell col={4}>
                             <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
-                                <CardTitle style={{color: 'white', height: '176px',background: 'url(https://live.mrf.io/statics/i/ps/www.ecestaticos.com/imagestatic/clipping/0e1/227/0e122742e65776401a28155f67ef5de2/los-seis-productos-que-es-mejor-no-comprar-en-un-supermercado-carne-envasada-pilas.jpg?mtime=1579565836) center/cover'}}>
-                                <p className='Cards_title_1'>Asociación de productos</p>
+                                <CardTitle style={{color: 'white', height: '176px',background: 'url(https://miro.medium.com/max/1140/1*diHxfl62piQUE_SwBcw8hg.jpeg) center / cover'}}>
+                                <p className='Cards_title_1'>Comparacion 5 tipos de clustering </p>
                                 </CardTitle>
                                 <CardText>
-                                En este proyecto se utiliza el algoritmo Apriori para generar una asociación de productos y potenciar la venta de estos.                   
+                                Se presentan 5 metodos de clusterizacion: -kmeans -minibatchkmeans -aglomerativo -dbscan -meanshift
+                                Todos unificados en con una sola función para ser importada en otros codigos y probados con datos de posiciones neuronales.
                                 </CardText>
                                 <CardActions border>
-                                    <a href="https://github.com/ggalvezb/Canasta_de_compras"rel="noopener noreferrer" target="_blank">
+                                    <a href="https://github.com/ggalvezb/5_tipos_clusters/blob/master/Tarea_Clusters.ipynb"rel="noopener noreferrer" target="_blank">
                                     <Button colored>Github</Button>
                                     </a>
                                 </CardActions>
@@ -440,7 +429,7 @@ class Projects extends Component{
                                     <IconButton name="share" />
                                 </CardMenu>
                             </Card>
-                        </Cell>
+                        </Cell>       
 
                     </Grid>
 
@@ -477,19 +466,37 @@ class Projects extends Component{
                             nombre_boton='Github'
                         />
 
-                        <Project
+                        {/* Canasta de compras */}
+                        <Cell col={4}>                          
+                            <Card shadow={0} style={{width: '290px', height: '350px', margin: 'auto'}}>
+                                <CardTitle style={{color: 'white', height: '176px',background: 'url(https://live.mrf.io/statics/i/ps/www.ecestaticos.com/imagestatic/clipping/0e1/227/0e122742e65776401a28155f67ef5de2/los-seis-productos-que-es-mejor-no-comprar-en-un-supermercado-carne-envasada-pilas.jpg?mtime=1579565836) center/cover'}}>
+                                <p className='Cards_title_1'>Asociación de productos</p>
+                                </CardTitle>
+                                <CardText>
+                                En este proyecto se utiliza el algoritmo Apriori para generar una asociación de productos y potenciar la venta de estos.                   
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://github.com/ggalvezb/Canasta_de_compras"rel="noopener noreferrer" target="_blank">
+                                    <Button colored>Github</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share" />
+                                </CardMenu>
+                            </Card>
+                        </Cell>
+
+
+                    </Grid>
+                    {/*QUINTA Fila VACIA */}
+                    <Grid>
+                    <Project
                             titulo='Curso Machine Learning A-Z Udemy'
                             image_card='https://img-a.udemycdn.com/course/750x422/950390_270f_3.jpg'
                             descripcion='Se abordaron los topicos de: Regression,Classification,Clustering, ARL, Reinforcement Learning, Natural Language Processing, Deep Learning, Dimensionality Reduction, Model Selection and Boosting '
                             link='https://www.udemy.com/course/machinelearning/'
                             nombre_boton='Web'
                         />
-
-
-                    </Grid>
-                    {/*QUINTA Fila VACIA */}
-                    <Grid>
-
                     </Grid>
 
                  
